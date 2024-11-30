@@ -1,5 +1,6 @@
-streamlit==1.25.0
-transformers>=4.35.0
-torchaudio==2.0.1
-torch>=2.0.0
-protobuf==4.23.3
+streamlit==1.25.0  # Ensure compatibility with the Streamlit environment
+transformers>=4.35.0  # Use the latest transformers compatible with Qwen model
+torch==2.1.0  # Compatible with Python 3.12
+torchaudio==2.1.0  # Compatible with torch==2.1.0 and Python 3.12
+protobuf==4.23.3  # For compatibility with Streamlit and Torch
+
